@@ -1,3 +1,5 @@
+#path: /etc/network/interfaces
+
 auto tap0
 iface tap0 inet manual
     pre-up tunctl -t tap0
