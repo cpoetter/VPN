@@ -3,7 +3,6 @@ PermitRootLogin yes
 #PasswordAuthentication yes
 PermitTunnel yes
 
-
 # production:
 PermitRootLogin without-password
 #PasswordAuthentication yes
