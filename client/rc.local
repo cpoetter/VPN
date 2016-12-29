@@ -1,3 +1,5 @@
+#path: /etc/rc.local
+
 /sbin/ip link set wlan0 down
 
 /sbin/iptables -P FORWARD ACCEPT
