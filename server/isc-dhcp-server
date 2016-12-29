@@ -1,1 +1,3 @@
+#path: /etc/network/interfaces
+
 INTERFACES="tap0"
