@@ -1,16 +1,16 @@
 #path: /etc/ssh/sshd_config
 
-# during installation
+# during development
 PermitRootLogin yes
 PasswordAuthentication yes
 PermitTunnel yes
 
-#run on client:
+# run on client to enable production
 #sudo su
 #ssh-keygen -t rsa -b 2048
 #ssh-copy-id root@<server_ip>
 
-# production:
+# for production
 PermitRootLogin without-password
 PasswordAuthentication no
 PermitTunnel yes
