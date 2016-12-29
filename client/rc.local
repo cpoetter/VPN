@@ -1,4 +1,4 @@
-sudo /sbin/ip link set wlan0 down
+/sbin/ip link set wlan0 down
 
 /sbin/iptables -P FORWARD ACCEPT
 /sbin/iptables --table nat -A POSTROUTING -o br0 -j MASQUERADE
