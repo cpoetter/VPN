@@ -1,3 +1,14 @@
+# during installation
 PermitRootLogin yes
-#PasswordAuthentication no
+#PasswordAuthentication yes
+PermitTunnel yes
+
+#run on client:
+#sudo su
+#ssh-keygen -t rsa -b 2048
+#ssh-copy-id root@<server_ip>
+
+# production:
+PermitRootLogin without-password
+#PasswordAuthentication yes
 PermitTunnel yes
