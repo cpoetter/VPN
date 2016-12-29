@@ -1,6 +1,6 @@
 # during installation
 PermitRootLogin yes
-#PasswordAuthentication yes
+PasswordAuthentication yes
 PermitTunnel yes
 
 #run on client:
@@ -10,5 +10,5 @@ PermitTunnel yes
 
 # production:
 PermitRootLogin without-password
-#PasswordAuthentication yes
+PasswordAuthentication no
 PermitTunnel yes
