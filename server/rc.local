@@ -1,0 +1,5 @@
+/sbin/iptables -P FORWARD ACCEPT
+/sbin/iptables --table nat -A POSTROUTING -o ens3 -j MASQUERADE
+echo 1| tee /proc/sys/net/ipv4/ip_forward
+/sbin/ifconfig tap0 192.168.3.1
+/etc/init.d/isc-dhcp-server start
