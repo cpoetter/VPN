@@ -1,3 +1,5 @@
+#path: /etc/ssh/sshd_config
+
 PermitRootLogin without-password
-#PasswordAuthentication yes
+PasswordAuthentication yes
 PermitTunnel yes
