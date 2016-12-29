@@ -1,3 +1,4 @@
 /sbin/iptables -P FORWARD ACCEPT
 /sbin/iptables --table nat -A POSTROUTING -o br0 -j MASQUERADE
 echo 1| tee /proc/sys/net/ipv4/ip_forward
+/usr/sbin/hostapd -B /etc/hostapd/hostapd.conf &   
