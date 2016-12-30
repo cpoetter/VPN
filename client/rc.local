@@ -7,3 +7,4 @@
 echo 1| tee /proc/sys/net/ipv4/ip_forward
 
 /usr/sbin/hostapd -B /etc/hostapd/hostapd.conf &
+/usr/bin/autossh -M 0 -o Tunnel=ethernet -w 0:0 -NTCf root@server_ip
