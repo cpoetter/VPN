@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Wait until tap and bridge are booted up
+sleep 60
+
+# Bridge tunnel to local network
+brctl addif br0 tap0 eth1
