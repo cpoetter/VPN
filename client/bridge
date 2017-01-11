@@ -1,3 +1,5 @@
+#path: /home/pi/bridge
+
 #!/bin/bash
 
 # Wait until tap and bridge are booted up
